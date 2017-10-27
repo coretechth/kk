@@ -9,10 +9,11 @@ if ($_SESSION['role']==1) {?>
     <table width="100%">
       <tr>
         <td>
-          <h3>จัดการสินค้า</h3>
+          <h3>จัดการข้อมูลสินค้า</h3>
           <ul>
             <li><a href="show_product.php">ดูสินค้าทั้งหมด</a></li>
-            <li><a href="#">เพิ่ม/แก้ไข/ลบสินค้า</a></li>
+            <li><a href="#">เพิ่มสินค้า</a></li>
+            <li><a href="edit_product.php">แก้ไข/ลบสินค้า</a></li>
           </ul>
         </td>
         <td>
